@@ -14,10 +14,14 @@
     const sentiment = new Sentiment();
 
     const pusher = new Pusher({
-        appId: process.env.PUSHER_APP_ID,
-        key: process.env.PUSHER_APP_KEY,
-        secret: process.env.PUSHER_APP_SECRET,
-        cluster: process.env.PUSHER_APP_CLUSTER,
+        // appId: process.env.PUSHER_APP_ID,
+        // key: process.env.PUSHER_APP_KEY,
+        // secret: process.env.PUSHER_APP_SECRET,
+        // cluster: process.env.PUSHER_APP_CLUSTER,
+        app_id : "1459306",
+key : "eb009196e4ebb3bf2adc",
+secret : "11048a122c43d90468dc",
+cluster : "eu",
         useTLS: true
     });
 
