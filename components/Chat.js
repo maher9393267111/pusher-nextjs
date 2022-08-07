@@ -13,7 +13,11 @@ class Chat extends Component {
     
     componentDidMount() {
 
-        this.pusher = new Pusher(process.env.PUSHER_APP_KEY, {
+        this.pusher = new Pusher(
+           // process.env.PUSHER_APP_KEY
+           "eb009196e4ebb3bf2adc"
+            ,
+             {
            // cluster: process.env.PUSHER_APP_CLUSTER,
            cluster : "eu",
             encrypted: true
